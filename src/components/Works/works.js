@@ -6,7 +6,7 @@ const Works = () => {
     {
       tech: 'Js and React',
       title: 'Portfolio',
-      description: 'A portfolio website displays your skills and projects to employers or clients. To upload a project, add its title, description, tech stack, and link in your site's code. Then deploy or update your site on platforms like Vercel or Netlify.',
+      description: 'A portfolio website displays your skills and projects to employers or clients. To upload a project, add its title, description, tech stack, and link in your site\'s code. Then deploy or update your site on platforms like Vercel or Netlify.',
       link: '#',
       color: 'green'
     },
