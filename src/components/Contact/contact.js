@@ -1,9 +1,9 @@
 import React from 'react';
 import './contact.css';
 
-const Experience = () => {
+const Contact = () => {
   return (
-    <section className="experience-section">
+    <section id="experience-section" className="experience-section">
       <h1 className="section-heading">Professional Journey</h1>
       <div className="timeline">
         <div className="timeline-item">
@@ -28,4 +28,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Contact;
