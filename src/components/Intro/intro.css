@@ -16,7 +16,6 @@
     height: 100vh;
 }
 
-
 .introContent {
     height: 100vh;
     width: 100vw;
@@ -24,16 +23,13 @@
     font-size: 4rem;
     font-weight: 900;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
 }
-
-
 
 .introName {
     color: rgb(13, 114, 214);
 }
-
 
 .introPara {
     font-size: medium;
@@ -49,8 +45,7 @@
     border-radius: 2rem;
 }
 
-
-.gtb{
+.gtb {
     background: rgb(13, 144, 214);
     margin: 1rem 0;
     padding: 0.75rem 1.5rem;
@@ -70,6 +65,22 @@
     object-fit: cover;
     margin: 0 0.25rem;
     height: 1rem;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: #0078D4;
+    transition: transform 0.2s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
 }
 
 @media screen and (max-width:840px) {

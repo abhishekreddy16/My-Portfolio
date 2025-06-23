@@ -1,12 +1,12 @@
 import React from 'react';
 import './works.css';
 
-const Projects = () => {
+const Works = () => {
   const projects = [
     {
       tech: 'Js and React',
       title: 'Portfolio',
-      description: 'A portfolio website displays your skills and projects to employers or clients. To upload a project, add its title, description, tech stack, and link in your site’s code. Then deploy or update your site on platforms like Vercel or Netlify.',
+      description: 'A portfolio website displays your skills and projects to employers or clients. To upload a project, add its title, description, tech stack, and link in your site\'s code. Then deploy or update your site on platforms like Vercel or Netlify.',
       link: '#',
       color: 'green'
     },
@@ -34,7 +34,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="projects-section">
+    <section id="projects-section" className="projects-section">
       <h1>My Projects</h1>
       <div className="project-grid">
         {projects.map((proj, idx) => (
@@ -50,4 +50,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Works;
