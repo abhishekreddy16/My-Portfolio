@@ -1,2 +1,2 @@
 # My Portfolio
-My Portfolio Project
+My Portfolio Project using HTML, Tailwind CSS and ReactJS
